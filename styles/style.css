@@ -1,0 +1,119 @@
+:root{
+    --greenBold: #1A4855;
+    --greenLight: #628E75;
+    --white: #F9F9F9;
+}
+
+@font-face {
+    font-family: "poppinsBlack";
+    src: url("../fonts/Poppins-Black.ttf");
+}
+
+@font-face {
+    font-family: "poppinsBold";
+    src: url("../fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "poppinsMedium";
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "poppinsRegular";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppinsSemiBold";
+    src: url("../fonts/Poppins-SemiBold");
+}
+
+body{
+    background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: var(--white)
+}
+
+
+nav{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 2fr;
+}
+
+.logo{ 
+    height: 140px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.options{
+    height: 140px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.svg{
+    margin-left: 30px;
+    margin-right: 20px;
+    transition:  1s;
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+.svg:hover{
+    cursor: pointer;
+    border-bottom: 20px solid rgba(0,0,0,0);
+}
+
+.container-content{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 1fr;
+    width: 88%;
+    margin-top: 90px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 260px;
+    width: 70%;
+}
+
+.content h2{
+    font-family: "poppinsMedium";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 70px;
+}
+
+.content h1{
+    font-family: "poppinsBlack";
+    font-size: 60px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.content p{
+    font-size: 16px;
+    line-height: 160%;
+    font-family: "poppoppinsBlackpinsMedium";
+}
+
+.container-buttons{
+    display: flex;
+    margin-top: 50px;
+}
+
+.btn{
+    opacity: 0.8;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 1;
+}
