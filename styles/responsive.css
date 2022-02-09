@@ -55,3 +55,24 @@
     }
 
 }
+
+@media screen and (max-width: 570px){
+    .content{
+        width: 80% !important;
+    }
+
+    .content h2{
+        font-size: 15px !important;
+    }
+
+    .content h1{
+        font-size: 40px !important;
+    }
+
+    .content p{
+        font-size: 14px !important;
+    }
+
+}
+
+
